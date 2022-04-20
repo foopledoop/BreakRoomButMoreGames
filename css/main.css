@@ -3,16 +3,16 @@ body:before {
  position: fixed;
  left: 0; right: 0;
  top: 0; bottom: 0;
- background: linear-gradient(45deg, blue, purple);
+ background: linear-gradient(135deg,#00ffe5 0%, rgba(0,8,255,0.45) 50%, #b000ff 100%);
  /*filter: blur(8px);*/
  z-index: -1;
 }
 
 /* USE THIS TO CHANGE COLOR SCHEME*/
 :root {
-    --main-color:darkorange;
-    --secondary-color:black;
-    --hovercolor:orange;
+    --main-color:#007a5c;
+    --secondary-color:#007a5c;
+    --hovercolor:#33007a;
     --textcolor:white;
     --borders:white;
   }
