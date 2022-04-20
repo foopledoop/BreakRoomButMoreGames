@@ -25,7 +25,7 @@ body{
   margin:0;
   background-color: white;
   color:var(--textcolor);
-  background-image: url('./obama.png');
+  background-image: url('/obama.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
