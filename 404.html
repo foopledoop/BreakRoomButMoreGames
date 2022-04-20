@@ -25,6 +25,25 @@
   background-color: #454545;
   color: #717500;
 }
+  body:before {
+ content: "";
+ position: fixed;
+ left: 0; right: 0;
+ top: 0; bottom: 0;
+ background: #000000;
+ /*filter: blur(8px);*/
+ z-index: -1;
+}
+
+    :root {
+    --main-color:darkorange;
+    --secondary-color:black;
+    --hovercolor:orange;
+    --textcolor:white;
+    --borders:white;
+  }
+
+
   </style>
   <body>
     <header><div class="navbar" id="mynavbar">
