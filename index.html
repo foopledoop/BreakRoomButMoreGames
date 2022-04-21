@@ -25,11 +25,11 @@
 <div id="index" class="tabcontent">
   <div class="centerh containerc">
   <h1>BreakRoomLITE</h1>
-  <h4>The stealthiest unblocker on the web. 10MB zipped. </h4>
-  <h4>With absolutely no user data being stored on our end & our use of 128-bit SSL and TLS, your communications are completely secure!</h4>
+  <h4>The stealthiest game PWA on the web. 9MB zipped. </h4>
+  <h4>This is 100% offline. Make sure that you use this properly to avoid detection.</h4>
   <h4>Use the navigation below to select your destination!</h4>
   <a href="#" onclick="openPage(event, 'games')" class="button">Games</a>
-  <a href="#" onclick="openPage(event, 'bookmarklets')" class="button">Technical stuff</a>
+  <a href="#" onclick="openPage(event, 'bookmarklets')" class="button">MicroApplets</a>
 </div>
 </div>
 <!-- end of index-->
@@ -50,81 +50,14 @@
 <div id="bookmarklets" class="tabcontent">
   <main><div class="centerh containerc">
     <h1></h1>
-    <h2>Bookmarklets</h2>
-    <h4>These bookmarklets are little scripts you put in your bookmarks bar to do cool stuff!</h4>
-    <h4>Setup of these bookmarklets is simple and it can get past tools like Hapara Highlights!</h4>
-    <h4>Select a Bookmarklet below to view its code!</h4>
-    <a href="./public-txt/gdrive.txt" class="button">Google Drive Cloak</a>
-    <a href="./public-txt/gg.txt" class="button">GoGuardian Bypass</a>
-    <a href="./public-txt/portaprox.txt" class="button">PortaProxy</a>
+    <h2>MicroApplets</h2>
+    <h4>These MicroApps allow you to add extra detection.</h4>
+    <h4>These buttons run code that alter the function of this website.</h4>
+    <h4>New buttons will be added soon, be patient.</h4>
   </div>
   </main>
 </div>
 <!--end of Bookmarklets-->
-
-
-<!-- Surf Freely-->
-<div id="selection" class="tabcontent">
-  <div class="c-box containerb">
-  <center>
-  <h1>Surf Freely</h1>
-  <h2>Browse with Freedom.</h2>
-  <h2>Type in the website you wish to unblock and press a button, to get going.</h2>
-  </center>
-  <center>
-      <!--<form action="" method="get" id="web-search-box" style="transform:scale(1.1)">-->
-      <form action="./geographic/index.php" id="web-search-box" method="post" style="transform:scale(1.1)">
-      <p>
-        <input type="text" placeholder="Enter URL" style="border:none;border-radius: 5px;padding:10px;" id="url" autocomplete="false" name="url" />&nbsp;<p></p>
-        <input type="button" id="localnode" class="selbuttonsbigger" value="Node" />
-        <input type="submit" class="selbuttons" value="PHP" />
-        <script>
-var host=location.hostname.split('.'),
-	purl=location.hostname,
-	ifr=document.getElementById('ifr');
-if(host.length==3){
-	purl=`${host[1]}.${host[2]}`;
-}
-var nde=document.getElementById('localnode'),
-    url=document.getElementById('url');
-
-nde.addEventListener('click',()=>{
-  window.location.href = "https://node."+purl+"/textbooks/" + url.value;
-});
-
-window.addEventListener('load', ()=>{
-  url.focus();
-});
-
-//these are the shortcut buttons
-var wee=(urlData=>{ // bruhhh idek how to fix this its like something with the html things but it works ig for now its 2am
-	url.value=urlData;	
-});
-        </script>
-      </p>
-    </form>
-  </center>
-  <center>
-  <h3>Info:</h3>
-    <h4>-PHP Proxy (PHP): Local proxy script that is capable of proxifying static websites.</h4>
-    <h4>-Node Unblocker (Node): Highly capable proxy that is capable of proxifying dynamic websites and games.</h4>
-    <h3>Server Status:</h3>
-    <h4>Node Server: (<span style='color: yellow'>PLEASE SET VALUE...</span>)</h4>
-    <h4>PHP-Proxy: (<span style="color: yellow">PLEASE SET VALUE...</span>)</h4>
-                <div class="d-box">
-      <h1>Support List:</h1>
-	<h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="invidio.us"><a href="#">Invidious</a></span><span> (Video Streaming) |<cctb>Node</cctb></span></h3>
-      <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="google.com"><a href="#">Google</a></span><span> (Search Engine) | <cctb>Node</cctb> <cctb>PHP</cctb></span></h3>
-      <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="startpage.com"><a href="#">Startpage</a></span><span> (Search Engine) | <cctb>Node</cctb>  <cctb>PHP</cctb></span></h3>
-      <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="andkon.com"><a href="#">Andkon</a></span><span> (Gaming) | <cctb>Node</cctb></span></h3>
-      <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="youtube.com"><a href="#">YouTube</a></span><span> (Video Streaming) |<cctb>PHP</cctb></span></h3>
-    </div>
-  </center>
-  </div>
-</div>
-<!-- end of the proxy page-->
-
-
     </main>
     <footer></footer>
   </body>
