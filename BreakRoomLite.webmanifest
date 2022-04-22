@@ -1,0 +1,15 @@
+{
+  "name": "BRLite PWA",
+  "short_name": "brlitepwa",
+  "description": "The fastest and lightest game unblocker. Censorship proof and versatile (13mb and even less zipped!)",
+  "start_url": "./index.html",
+    "icons": [
+    {
+      "src": "BRLite.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+  "display": "fullscreen",
+  "theme_color": "#00ffe5",
+  "background_color": "#b000ff"
+}
