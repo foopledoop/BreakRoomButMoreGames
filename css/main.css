@@ -18,7 +18,7 @@ body:before {
   }
 
 body{
-  font: 15px/1.5 "Atkinson Hyperlegible", Source Code Pro, sans-serif;
+  font: 15px/1.5 "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
   text-align: center;
   padding: 0;
   text-decoration: none;
@@ -149,7 +149,7 @@ body {
 
 
 .c-box {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
     position: relative;
     top:65px;
     border-top: var(--main-color) 3px solid;
@@ -189,7 +189,7 @@ body {
 .c-box a {color:white;}
 
 .d-box {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
     position: relative;
     padding: 20px 40px;
     margin-top:63px;
