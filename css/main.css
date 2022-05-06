@@ -18,7 +18,7 @@ body:before {
   }
 
 body{
-  font: 15px/1.5 Atkinson Hyperlegible;
+  font: 15px/1.5 "Atkinson Hyperlegible", Source Code Pro, sans-serif;
   text-align: center;
   padding: 0;
   text-decoration: none;
