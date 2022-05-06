@@ -8,3 +8,7 @@ Modules only work offline for now.
 
 
 More Modules will come soon.
+
+
+##Credits
+The code is owned by TitaniumNetwork. It has the MIT license. TitaniumNetwork is credited in the license file.
