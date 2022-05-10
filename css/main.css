@@ -8,6 +8,12 @@ body:before {
  z-index: -1;
 }
 
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("./css/Atkinson-Hyperlegible-Regular-102a.woff2");
+}
+
+
 /* USE THIS TO CHANGE COLOR SCHEME*/
 :root {
     --main-color:#007a5c;
@@ -18,7 +24,7 @@ body:before {
   }
 
 body{
-  font: 15px/1.5 "Times", sans-serif;
+  font: 15px/1.5 "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
   text-align: center;
   padding: 0;
   text-decoration: none;
@@ -36,7 +42,7 @@ body a {text-decoration: none;}
 
 body {
   margin: 0;
-  font-family: "Times", sans-serif;
+  font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
 }
 
 .navbar {
@@ -149,7 +155,7 @@ body {
 
 
 .c-box {
-    font-family: "Times", sans-serif;
+    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
     position: relative;
     top:65px;
     border-top: var(--main-color) 3px solid;
@@ -189,7 +195,7 @@ body {
 .c-box a {color:white;}
 
 .d-box {
-    font-family: "Times", sans-serif;
+    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
     position: relative;
     padding: 20px 40px;
     margin-top:63px;
@@ -235,7 +241,7 @@ cctb {
     color:white;
     border: 1px solid var(--borders);
     text-align: center;
-    font-family: "Times", sans-serif;
+    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
     background-color: var(--main-color);
     text-rendering: optimizeLegibility;
 }
