@@ -24,7 +24,7 @@ body:before {
   }
 
 body{
-  font: 15px/1.5 "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
+  font: 15px/1.5 "Atkinson Hyperlegible", "Courier New", monospace;
   text-align: center;
   padding: 0;
   text-decoration: none;
@@ -42,7 +42,7 @@ body a {text-decoration: none;}
 
 body {
   margin: 0;
-  font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
+  font-family: "Atkinson Hyperlegible", "Courier New", monospace;
 }
 
 .navbar {
@@ -155,7 +155,7 @@ body {
 
 
 .c-box {
-    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
+    font-family: "Atkinson Hyperlegible", "Courier New", monospace;
     position: relative;
     top:65px;
     border-top: var(--main-color) 3px solid;
@@ -195,7 +195,7 @@ body {
 .c-box a {color:white;}
 
 .d-box {
-    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
+    font-family: "Atkinson Hyperlegible", "Courier New", monospace;
     position: relative;
     padding: 20px 40px;
     margin-top:63px;
@@ -241,7 +241,7 @@ cctb {
     color:white;
     border: 1px solid var(--borders);
     text-align: center;
-    font-family: "Atkinson Hyperlegible", "Source Code Pro", sans-serif;
+    font-family: "Atkinson Hyperlegible", "Courier New", monospace;
     background-color: var(--main-color);
     text-rendering: optimizeLegibility;
 }
