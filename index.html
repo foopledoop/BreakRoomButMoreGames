@@ -11,6 +11,7 @@
   <body>
     <header><div class="navbar" id="mynavbar">
       <a href="" class="logo">BreakRoomLITE</a>
+  <a href="#" onclick="openPage(event, 'yt')">YouTube</a>      
   <a href="#" onclick="openPage(event, 'contact')">Contact</a>
   <a href="#" onclick="openPage(event, 'games')" ondblclick="gframe.src = gframe.src;">Games</a>
   <a href="#" id="indexPage" onclick="openPage(event, 'index') ">Home</a>
@@ -46,6 +47,10 @@
   </main>
 </div>
 <!-- end of contact-->
+<!-- YouTube -->
+      <div id="yt" class="tabcontent">
+  <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" id="gframe" src="./YouTube/index.html"  style="position:fixed; top:50px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:9;"></iframe>
+</div>
 <!--Bookmarklets-->
 <div id="bookmarklets" class="tabcontent">
   <main><div class="centerh containerc">
