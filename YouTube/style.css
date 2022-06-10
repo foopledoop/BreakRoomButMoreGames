@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   max-width: none;
+  background-color: #7900b0;
 }
 
 iframe {
@@ -21,7 +22,7 @@ p {
 }
 
 textarea {
-  font-family: monospace;
+  font-family: "Lucida Console", monospace;
   transition: none;
   resize: none;
 }
