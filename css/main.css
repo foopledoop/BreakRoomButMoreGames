@@ -4,13 +4,43 @@ body:before {
  left: 0; right: 0;
  top: 0; bottom: 0;
  background: linear-gradient(135deg,#00ffe5 0%, rgba(0,8,255,0.45) 50%, #b000ff 100%);
+ -webkit-animation: bgcolor 20s infinite;
+ animation: bgcolor 10s infinite;
+ -webkit-animation-direction: alternate;
+ animation-direction: alternate;
  /*filter: blur(8px);*/
  z-index: -1;
 }
 
+@keyframes bgcolor {
+    0% {
+        background-color: #00ffc0;
+    }
+
+    20% {
+        background-color: #00e4ff;
+    }
+
+    40% {
+        background-color: #00c0ff;
+    }
+
+    60% {
+        background-color: #008cff;
+    }
+ 
+    80% {
+        background-color: #b000ff;
+    }
+
+    100% {
+        background-color: #00ffc0;
+    }
+}
+
 @font-face {
   font-family: "Atkinson Hyperlegible";
-  src: url("./css/Atkinson-Hyperlegible-Regular-102a.woff2");
+  src: url("./Atkinson-Hyperlegible-Regular-102a.woff2");
 }
 
 
@@ -31,7 +61,6 @@ body{
   margin:0;
   background-color: white;
   color:var(--textcolor);
-  background-image: url('/obama.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,7 +71,7 @@ body a {text-decoration: none;}
 
 body {
   margin: 0;
-  font-family: "Atkinson Hyperlegible", "Courier New", monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .navbar {
