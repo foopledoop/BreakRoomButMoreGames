@@ -3,7 +3,6 @@ body:before {
  position: fixed;
  left: 0; right: 0;
  top: 0; bottom: 0;
- background: linear-gradient(135deg,#00ffe5 0%, rgba(0,8,255,0.45) 50%, #b000ff 100%);
  -webkit-animation: bgcolor 20s infinite;
  animation: bgcolor 10s infinite;
  -webkit-animation-direction: alternate;
